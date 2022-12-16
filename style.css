@@ -26,7 +26,13 @@
 
 .ul-header {
  color: var(--font);
+ list-style-type: nones;
  display: flex;
  flex-direction: row;
+ justify-content: flex-end;
  align-items: center;
+}
+
+li {
+ display: inline-flex;
 }
