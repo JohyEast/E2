@@ -30,12 +30,12 @@
 }
 
 .ul-header {
- color: var(--font);
  list-style-type: nones;
  display: flex;
  align-items: center;
 }
 
-li {
+li a {
+ color: var(--font);
  padding-left: 30px;
 }
