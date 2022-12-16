@@ -1,0 +1,32 @@
+:root {
+ --background: #d6edf3;
+ --icons: #2b6c7e;
+ --font: #062d46;
+}
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style: none;
+ font-family: sans-serif;
+}
+
+.navbar {
+ height: 100px;
+ width: 100%;
+ display: flex;
+ background-color: var(--background);
+}
+
+.logo {
+ width: 100px;
+ height: 100px;
+}
+
+.ul-header {
+ color: var(--font);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
