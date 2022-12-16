@@ -15,8 +15,13 @@
 .navbar {
  height: 100px;
  width: 100%;
+ padding-right: 10px;
  display: flex;
+ justify-content: space-between;
  background-color: var(--background);
+ position: fixed;
+ top: 0;
+ z-index: 2;
 }
 
 .logo {
@@ -28,12 +33,9 @@
  color: var(--font);
  list-style-type: nones;
  display: flex;
- flex-direction: row;
- justify-content: flex-end;
  align-items: center;
 }
 
 li {
- display: inline-flex;
- padding-left: 10px;
+ padding-left: 15px;
 }
