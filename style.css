@@ -11,6 +11,7 @@
  list-style: none;
  font-family: sans-serif;
 }
+/* Para modificar el navbar */
 
 .navbar {
  height: 100px;
@@ -39,4 +40,86 @@
 li a {
  color: var(--font);
  padding-left: 30px;
+}
+
+/* Contenido principal */
+
+main {
+ margin-top: 100px;
+}
+
+/* Para modificar el hero */
+
+#hero {
+ display: flex;
+ justify-content: center;
+}
+
+#hero img {
+ width: 200px;
+ height: 200px;
+ margin-top: 50px;
+ margin-right: 50px;
+}
+
+.hero-content {
+ color: var(--font);
+ margin-top: 60px;
+ margin-left: 50px;
+ width: 300px;
+}
+
+#hero h1 {
+ height: 80px;
+ width: 200px;
+ text-align: left;
+}
+
+#hero p {
+ text-align: left;
+ height: 80px;
+ width: 300px;
+}
+
+/* Botones hero */
+
+.buttons {
+ display: flex;
+ justify-content: flex-start;
+}
+
+.b1,
+.b2 {
+ border-radius: 20px;
+ width: 110px;
+ height: 30px;
+ font-weight: 700;
+ cursor: pointer;
+}
+
+.b1 {
+ margin-right: 20px;
+ background-color: var(--font);
+ color: var(--background);
+ border: none;
+}
+
+.b2 {
+ color: var(--font);
+ border-color: var(--font);
+}
+
+/* description parrafo*/
+
+.description {
+ width: 100%;
+ text-align: center;
+ color: var(--font);
+ margin-top: 50px;
+ display: flex;
+ justify-content: center;
+}
+
+.description p {
+ width: 500px;
 }
