@@ -1,4 +1,5 @@
 @media (max-width: 600px) {
+ /* Menu button y menu toogle */
  .menu-button {
   margin: 0.5rem;
   margin-top: 30px;
@@ -47,5 +48,32 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+ }
+ /* hero content */
+ .hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .imagen {
+  display: none;
+ }
+ .buttons {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+ }
+ .b1 {
+  margin: 0;
+  margin-bottom: 1rem;
+ }
+
+ /* description */
+ .description {
+  display: flex;
+  justify-content: center;
  }
 }
