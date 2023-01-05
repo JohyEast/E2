@@ -1,0 +1,44 @@
+@media (max-width: 600px) {
+ .menu-button {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #2b6c7e;
+  cursor: pointer;
+ }
+
+ .menu-button span {
+  width: 40px;
+  height: 4px;
+  background: #d6edf3;
+ }
+
+ .menu-toggle {
+  display: none;
+ }
+
+ .toggle {
+  display: none;
+  text-align: center;
+  background: #d6edf3;
+  border-radius: 5px;
+  padding: 20px;
+  width: 150px;
+  margin: 10px auto;
+ }
+
+ .toggle li {
+  list-style: none;
+  display: block;
+  padding: 10px 0;
+ }
+
+ .menu-toggle:checked + .toggle {
+  display: block;
+ }
+}

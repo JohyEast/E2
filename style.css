@@ -124,3 +124,7 @@ main {
 .description p {
  width: 500px;
 }
+
+.menu-toggle {
+ display: none;
+}
