@@ -1,6 +1,7 @@
 @media (max-width: 600px) {
  .menu-button {
   margin: 0.5rem;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -40,5 +41,11 @@
 
  .menu-toggle:checked + .toggle {
   display: block;
+ }
+
+ .menu-d {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
  }
 }
