@@ -44,6 +44,9 @@ li a {
  padding-left: 30px;
 }
 
+a:hover {
+ font-weight: 800;
+}
 /* Contenido principal */
 
 main {
