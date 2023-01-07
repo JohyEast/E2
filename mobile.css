@@ -55,12 +55,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 0;
  }
  #hero h1 {
   text-align: center;
  }
  #hero p {
   text-align: center;
+  width: auto;
  }
  .imagen {
   display: none;
