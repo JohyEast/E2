@@ -101,6 +101,13 @@
  .tel-mail {
   margin-bottom: 2rem;
  }
+ #contacto h2 {
+  text-align: center;
+ }
+ .contacts {
+  display: flex;
+  flex-direction: column;
+ }
  .mapa {
   width: 60%;
   display: flex;

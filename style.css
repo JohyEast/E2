@@ -164,6 +164,11 @@ main {
 }
 
 /* contacto */
+
+#contacto {
+ margin-top: 2rem;
+ margin-left: 2rem;
+}
 .contacto {
  display: flex;
  flex-direction: row;
@@ -188,6 +193,15 @@ main {
  background-color: #d6edf3;
  width: 220px;
  height: 100px;
+}
+
+.contacts {
+ display: flex;
+ justify-content: space-between;
+ gap: 1rem;
+}
+
+iframe {
 }
 
 footer {
