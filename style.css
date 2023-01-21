@@ -213,3 +213,18 @@ footer {
 .tel-mail h4 {
  margin: 0.5rem 0 0.5rem 0;
 }
+
+.hero-content {
+ transform: translateY(0);
+}
+@keyframes slideDown {
+ from {
+  transform: translateY(-100%);
+ }
+ to {
+  transform: translateY(0);
+ }
+}
+.slide-down {
+ animation: slideDown 1s;
+}
